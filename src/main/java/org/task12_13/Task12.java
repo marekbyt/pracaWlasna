@@ -19,10 +19,20 @@ public class Task12 {
     CarService carService = new CarService();
     carService.add(x500);
     carService.add(gls_1);
+    carService.add(gls_2);
+    carService.add(xc90_1);
+    carService.add(xc90_2);
+    carService.add(xc60_1);
+    carService.add(xc60_2);
         //System.out.println();
         //carService.remove(x500);
-        List<Car> returnedListOfCars = carService.getAll();
-        System.out.println(returnedListOfCars);
+       // List<Car> returnedListOfCars = carService.getAll();
+        //System.out.println(returnedListOfCars);
+       // System.out.println(carService.printCarsWithV12Engine());
+        //System.out.println(carService.getCarsProdusedBefor1999());
+        //System.out.println(carService.getCarsWithHigherPrice());
+        //System.out.println(carService.getCarWithLowerPrice());
+        System.out.println(carService.getCarsWithMoreThenTwoManufacturer());
     }
 
 
