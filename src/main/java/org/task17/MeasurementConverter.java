@@ -8,7 +8,7 @@ public class MeasurementConverter {
         //10 cm * przelicznk (o.39)
         return value * conversionType.getValue();
     }
-    public float vonvert(float value, ConversionTypeWithFuncion conversionType){
-        
+    public float convert(float value, ConversionTypeWithFuncion conversionType){
+return value;
     }
 }
