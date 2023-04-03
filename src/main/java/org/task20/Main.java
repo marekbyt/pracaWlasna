@@ -11,5 +11,12 @@ public class Main {
         System.out.println("Perimeter of triangle1 = " + triangle1.calculatePerimeter());
         System.out.println("Area of triangle1 = " + triangle1.calculateArea());
 
+        Qube qube = new Qube(4);
+        System.out.println("Volume of qube = " + qube.calculateVolume());
+
+        Shape cube = new Qube(27);
+        
+
+
     }
 }
