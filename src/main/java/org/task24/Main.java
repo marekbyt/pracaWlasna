@@ -5,7 +5,7 @@ public class Main {
 
 
         Basket basket = new Basket();
-       
+
         basket.removeFromBasket();
         System.out.println();
     }
