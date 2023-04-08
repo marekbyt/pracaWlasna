@@ -11,7 +11,7 @@ public class Task34 {
         System.out.println("[main] Przeszkadzam pierwszemu watkowi");
         myThread1.interrupt();
         System.out.println("[main] juz poprzeszkadzałem pierwszemu watkowi");
-        
+
 
         MyThread myThread2 = new MyThread();
         myThread2.start();
